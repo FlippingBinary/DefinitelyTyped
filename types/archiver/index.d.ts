@@ -125,6 +125,7 @@ declare namespace archiver {
         comment?: string;
         forceLocalTime?: boolean;
         forceZip64?: boolean;
+        namePrependSlash?: boolean;
         store?: boolean;
         zlib?: ZlibOptions;
     }
